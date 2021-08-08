@@ -1,7 +1,6 @@
 const {Router} = require('express');
 const axios = require('axios');
 const {Temperament} = require('../db');
-const { v4: uuid4} = require('uuid');
 
 const router = Router();
 
@@ -28,28 +27,10 @@ router.get('/temperament', async(req, res, next) => {
             return arrayTemp.indexOf(value) === index;
         });
         tempUnicos.forEach(async (e) => {
-            const id = uuid4();
             const [name, created] = await Temperament.findOrCreate({
-                where: {name : e},
-                defaults: {
-                    name: e,
-                    id:id,
-                }
+                where: {name : e}
             }) 
         } )
-        
-        // tempUnicos.forEach(async e => {
-        //     const id = uuid4();
-        //     try{
-        //         const newTemp = await Temperament.create({
-        //             id: id,
-        //             name: e,
-        //         });
-                
-        //     }catch(e){
-        //         res.send(e);
-        //     }
-        // });
         
     const Temps = await Temperament.findAll();
     res.send(Temps); 

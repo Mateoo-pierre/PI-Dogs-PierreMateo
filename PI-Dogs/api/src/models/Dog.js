@@ -13,13 +13,21 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    height: {
-      type: DataTypes.INTEGER,
+    height_metric: {
+      type: DataTypes.SMALLINT,
       allowNull: false,
     },
-    weight: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
+    height_imperial:{
+      type: DataTypes.SMALLINT,
+      allowNull: false
+    },
+    weight_metric:{
+      type: DataTypes.SMALLINT,
+      allowNull: false
+    },
+    weight_imperial:{
+      type: DataTypes.SMALLINT,
+      allowNull: false
     },
     lifeSpan: {
       type: DataTypes.INTEGER,
