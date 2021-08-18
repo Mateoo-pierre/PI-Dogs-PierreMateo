@@ -1,18 +1,25 @@
+import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom'
 
 //import css
 import './App.css';
 
 //import component
+import { Into } from './components/into/into';
+import {Home} from './components/home/home';
+import {Details} from './components/details/details'
+import {Add} from './components/add/add'
 
 function App() {
   return (
-    <div className="App">
-      <h1 className = 'title_home'>Henry Dogs</h1>
-      <div className='div_buton_home'>
-        <a className = 'buton_home' href="">INGRESAR</a>
-      </div>
-    </div>
+    <BrowserRouter>
+      <>
+        <Route exact path = '/' component = {Into} />
+        <Route exact path = '/home' component = {Home} />
+        <Route exact path = '/details/:id' component = {Details} />
+        <Route exact path = '/add' component = {Add} />
+      </>
+    </BrowserRouter>
   );
 }
 

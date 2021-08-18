@@ -13,19 +13,19 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    height_metric: {
+    height_max: {
       type: DataTypes.SMALLINT,
       allowNull: false,
     },
-    height_imperial:{
+    height_min:{
       type: DataTypes.SMALLINT,
       allowNull: false
     },
-    weight_metric:{
+    weight_max:{
       type: DataTypes.SMALLINT,
       allowNull: false
     },
-    weight_imperial:{
+    weight_min:{
       type: DataTypes.SMALLINT,
       allowNull: false
     },
@@ -34,6 +34,10 @@ module.exports = (sequelize) => {
     },
     image: {
       type: DataTypes.STRING,
+    },
+    status: {
+      type: DataTypes.STRING,
+      defaultValue: 'add'
     }
   });
 };

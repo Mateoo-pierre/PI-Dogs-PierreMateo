@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.hr_home_home {
+    color: #fff;
+    margin-top: -60px;
+    margin-bottom: 60px;
+    margin-left: 707px;
+    width: 60px;
+}
+
+.paginado {
+    margin-left: 330px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.select_div_home {
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 115px;
+}
+
+.select_home {
+    color: #fff;
+    background-color: transparent;
+    display: inline-flex;
+    margin-left: 190px;
+    border:2px solid #fff;
+    height:30px;
+    overflow: hidden;
+    width: 100px;
+    position:relative;
+}
+
+.select_home_one {
+    background-color: transparent;
+    color: #fff ;
+    display: inline-flex;
+    margin-left: 20px;
+    border:2px solid #fff;
+    height:30px;
+    overflow: hidden;
+    width: 180px;
+    position:relative;
+}
+
+.select_home_two {
+    color: #fff;
+    background-color: transparent;
+    display: inline-flex;
+    margin-left: 20px;
+    border:2px solid #fff;
+    height:30px;
+    overflow: hidden;
+    width: 200px;
+    position:relative;
+    box-shadow: 0 2px 3px rgba(0 0 0 / 0.09);
+}
+
+.select_home_three {
+    color: #fff;
+    background-color: transparent;
+    display: inline-flex;
+    margin-left: 20px;
+    border:2px solid #fff;
+    height:30px;
+    overflow: hidden;
+    width: 200px;
+    position:relative;
+}
+
+select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+} 
+

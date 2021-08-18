@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+}
+
+.div_nav {
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: #26272c;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 22px;
+}
+
+.title_nav {
+    font-size: 30px;
+    color: white;
+    padding: 0px 15px;
+    align-items: center;
+    padding-bottom: 70px;
+    margin-right: 520px;
+}
+
+.p_home_nav {
+    margin-top: 12px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.p_add_nav {
+    margin-left: 50px;
+    margin-top: 12px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.input_search_home {
+    margin-left: 104px;
+    margin-bottom: 25px;
+    padding: 10px;
+    text-align: center;
+    width: 220px;
+}
+
+.buton_search_home {
+    text-decoration:none;
+    font-size:15px;
+    font-weight:600;
+    color:#ffffff;
+    margin-left: 10px;
+    height: 38px;
+    padding-top:1px;
+    padding-bottom:1px;
+    padding-left:15px;
+    padding-right:15px;
+    background: transparent;
+    border:2px solid #fff;  
+}

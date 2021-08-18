@@ -1,0 +1,191 @@
+
+.hr_add_add {
+    color: #fff;
+    margin-top: -60px;
+    margin-bottom: 60px;
+    margin-left: 800px;
+    width: 100px;
+}
+
+form {
+    display: block;
+}
+
+.div_add_one {
+    width: 100%;
+}
+
+.title_add {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin: 10px 0px;
+}
+
+.input_add_name {
+    margin-left: 570px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    border:2px solid #fff;
+    height:30px;
+    width: 230px;
+    position:relative;
+}
+
+.div_add_height {
+    margin-top: 5px;
+    margin-left: 570px;
+}
+
+.input_add_height_metric {
+    color: #fff;
+    background-color: transparent;
+    margin-right: 7px;
+    text-align: center;
+    border:2px solid #fff;
+    height:25px;
+    width: 110px;
+    position:relative;
+    box-shadow: 0 2px 3px rgba(0 0 0 / 0.09);
+}
+
+.input_add_height_imperial{
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
+    border:2px solid #fff;
+    height:25px;
+    width: 110px;
+    position:relative;
+}
+
+.div_add_weight {
+    margin-top: 5px;
+    margin-left: 570px;
+}
+
+.input_add_weight_metric{
+    color: #fff;
+    background-color: transparent;
+    margin-right: 7px;
+    text-align: center;
+    border:2px solid #fff;
+    height:25px;
+    width: 110px;
+    position:relative;
+}
+
+.input_add_weight_imperial{
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
+    border:2px solid #fff;
+    height:25px;
+    width: 110px;
+    position:relative;
+}
+
+.input_add_lifeSpan{
+    color: #fff;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 570px;
+    text-align: center;
+    border:2px solid #fff;
+    height:25px;
+    width: 230px;
+    position:relative;
+    }
+
+.input_add_img{
+    color: #fff;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 570px;
+    text-align: center;
+    border:2px solid #fff;
+    height:30px;
+    width: 230px;
+    position:relative;
+}
+
+.div_add_temps {
+    display: flex;
+}
+
+.select_add_temps {
+    text-align: center;
+    color: #fff;
+    margin-left: 569px;
+    margin-top: 5px;
+    display: inline-flex;
+    border:2px solid #fff;
+    height:30px;
+    overflow: hidden;
+    width: 235px;
+    position:relative;
+}
+
+.button_delete_temp {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    height: 20px;
+    width: 17px;
+    border:1px solid #fff;
+    background-color: transparent;
+}
+
+.buton_add_dog {
+    text-decoration:none;
+    font-size:15px;
+    font-weight:600;
+    color:#ffffff;
+    margin-top: 25px;
+    margin-left: 645px;
+    height: 38px;
+    padding-top:1px;
+    padding-bottom:1px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: transparent;
+    border:2px solid #fff;
+}
+
+.ul_add {
+    margin-top: 25px;
+    margin-left: 150px;
+    display: flex;
+}
+
+.li_add {
+    margin-left: 30px;
+    color: #fff;
+}
+
+.name_error_add {
+    color: brown;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 570px;
+}
+
+.height_error_add {
+    color: brown;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.weight_error_add {
+    color: brown;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.lifeSpan_error_add {
+    color: brown;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 570px;
+}

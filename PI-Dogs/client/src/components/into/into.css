@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+    background-color: #26272c;
+
+}
+
+.background_into {
+    background-color: #26272c;
+    width: 1366px;
+    display: flex;
+    position: fixed;
+    height: 1000px;
+}
+
+.div_into {
+    display: flex;
+    background-color: white;
+    margin-left: 170px;
+    margin-top: 70px;
+    height: 450px;
+    width: 1000px;
+}
+
+
+.div_into_one {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.p_into {
+    margin-right: 10px;
+}
+
+.img_into {
+    border-radius: 0px 7px 7px 0px;
+}
+
+.title_into {
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+
+.buton_into {
+    text-decoration:none;
+    font-size:20px;
+    font-weight:900;
+    width: 300px;
+    color:#26272c;
+    margin-left: 20px;
+    margin-top: 100px;
+    height: 30px;
+    padding-top:7px;
+    padding-bottom:1px;
+    padding-left:15px;
+    padding-right:15px;
+    background: transparent;;
+    box-shadow: 0 2px 3px rgba(0 0 0 / 0.15);
+    border: 3px solid #26272c
+}
+
+

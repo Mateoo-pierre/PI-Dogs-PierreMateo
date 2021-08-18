@@ -1,0 +1,77 @@
+.back_details {
+    background-color: #fff;
+}
+
+.div_cardetails {
+    margin-top: 0px;
+    background-color: transparent;    
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+}
+
+.div_details_img {
+    display: flex;
+}
+
+.details_name {
+    color: #fff;
+    font-size: 60px;
+    padding-top: -60px;
+    padding-left: 30px;
+    width: 50%;
+}
+
+.details_temps {
+    color: #fff;
+    margin-top: 60px;
+    padding-left: 30px;
+}
+
+.details_img {
+    margin-top: -139px;
+    margin-left: 43%;
+    display: flex;
+    width: 500px;
+    height: 450px;
+}
+
+.div_one_cardDetails {
+    display: flex;
+    margin-top: -80px;
+}
+
+.img_height {
+    margin-left: 18px;
+}
+
+.div_height {
+    color: #fff;
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-right: 70px;
+}
+
+.div_weight {
+    color: #fff;
+    text-align: center;
+    margin-top: 4px;
+    margin-right: 50px;
+}
+
+.img_weight {
+    margin-right: 18px;
+}
+
+.div_lifespan {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.img_lifespan {
+    margin-right: 13px;
+}
