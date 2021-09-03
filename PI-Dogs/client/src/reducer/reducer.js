@@ -24,10 +24,6 @@ const root = (state = initialState, action) => {
                     if(action.payload === 'existente'){
                         return !e.status
                     }
-                    else {
-                        console.log(action.payload);
-                        return e.temperament === action.payload
-                    }
                 });
                 return {
                     ...state,
@@ -35,7 +31,6 @@ const root = (state = initialState, action) => {
                 };
             case FILTER_TEMP : 
                 const temp = action.payload === 'todos' ? state.allDogs : state.allDogs.filter( e => {
-                    console.log(e);
                     if(e.temperament){
                         const espacio = ', ';
                         if(Array.isArray(e.temperament)){
@@ -89,7 +84,7 @@ const root = (state = initialState, action) => {
                 } ;
             case FILTER_WEIGHT : 
                 const filterByWeight = action.payload === 'menor' ?
-                state.allDogs.sort(function(a, b) {
+                state.dogs.sort(function(a, b) {
                     console.log(a);
                     if(a.weight.metric > b.weight.metric) {
                         return 1;

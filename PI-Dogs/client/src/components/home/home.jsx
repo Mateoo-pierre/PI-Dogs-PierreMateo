@@ -18,13 +18,12 @@ const dispatch = useDispatch();
 const allDogs = useSelector ((state) => state.dogs);
 const temperaments = useSelector ((state) => state.temperaments);
 
+useEffect (() => {
+    dispatch(getDog());
+}, [dispatch]);
 
 useEffect(() => {
     dispatch(getTemps());
-}, [dispatch]);
-
-useEffect (() => {
-    dispatch(getDog());
 }, [dispatch]);
 
 const handleFilter = (e) => {

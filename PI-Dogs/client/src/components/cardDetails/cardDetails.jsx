@@ -26,19 +26,19 @@ export const CardDetails = ({image, name, temperament, height, weight, lifeSpan}
                 <div className = 'div_one_cardDetails'>
                         <img className = 'img_height' width = '4%' src="https://img.icons8.com/ios/500/height.png" alt="" />
                     <div className = 'div_height'>
-                        <p>Height</p>
+                        <p>Altura</p>
                         <p>{height}</p>
                         <p>cm</p>
                     </div>
                     <img className = 'img_weight' width = '3%' src="http://cdn.onlinewebfonts.com/svg/img_332986.png" alt="" />
                     <div className = 'div_weight'>
-                        <p>Weigth</p>
+                        <p>Peso</p>
                         <p>{weight}</p>
                         <p>kg</p>
                     </div>
                     <img className = 'img_lifespan' width = '4%' src="https://static.thenounproject.com/png/3696732-200.png" alt="" />
                     <div className = 'div_lifespan'>
-                        <p>Life Span</p>
+                        <p>Largo de vida</p>
                         <p>{lifeSpan}</p>
                     </div>
                 </div>
