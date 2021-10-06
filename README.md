@@ -28,6 +28,9 @@ Instala las dependecias
 Abre la App
 
 ```bash
+  Estando en PI-Dogs/api
+  npm start
+  -------------------------
   Estando en PI-dogs/client
   npm start
 ```
