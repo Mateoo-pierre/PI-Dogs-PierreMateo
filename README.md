@@ -18,11 +18,16 @@ Ve al directorio del proyecto
 Instala las dependecias
 
 ```bash
+  cd api
+  npm install
+  -----------
+  cd client
   npm install
 ```
 
 Abre la App
 
 ```bash
+  PI-dogs/client
   npm start
 ```
