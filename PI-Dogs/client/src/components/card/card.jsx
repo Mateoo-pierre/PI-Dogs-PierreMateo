@@ -13,7 +13,6 @@ export const Card = ({id, image, name, temperament}) => {
                 <img src={image} width = '200px' height = '250px' alt = '' />
                 <h3 className = 'card_title'>{name}</h3>
                 <h5 className = 'card_temperament'>{temperament}</h5>
-                <p>puto el q lee</p>
             </Link>
             </div>
         </div>
