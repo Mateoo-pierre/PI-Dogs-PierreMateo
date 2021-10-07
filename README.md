@@ -12,7 +12,7 @@ Clone el proyecto
 Ve al directorio del proyecto
 
 ```bash
-  cd PI-Dogs
+  cd PI-Dogs-PierreMateo/PI-Dogs
 ```
 
 Instala las dependecias
